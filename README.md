@@ -1,2 +1,2 @@
 # iTour_LandingPage
-This is the landing page of ITour App.
+This is the landing page of iTour Planner App.

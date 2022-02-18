@@ -1007,8 +1007,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #5b4f96;
-  border-color: #5b4f96;
+  background: #AD2533;
+  border-color: #AD2533;
   color: #ffffff;
 }
 
@@ -1022,8 +1022,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #514686;
-  border-color: #514686;
+  background: #dd3647;
+  border-color: #dd3647;
 }
 
 /* button modifiers
@@ -1720,6 +1720,7 @@ input::-moz-focus-inner {
   position: absolute;
   left: 0;
   top: 50%;
+  width: 100px;
 }
 
 .header-logo a {
@@ -1730,8 +1731,7 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 130px;
-  height: 36px;
+  width: 100%;
 }
 
 
@@ -2132,7 +2132,7 @@ input::-moz-focus-inner {
 
 .home-content__right {
   z-index: 500;
-  width: 580px;
+  width: 770px;
   position: absolute;
   right: 0;
   top: 0;
@@ -2232,7 +2232,7 @@ input::-moz-focus-inner {
   height: 5.6rem;
   width: 5.6rem;
   background-color: rgba(255, 255, 255, 0.05);
-  background-image: url(../images/icons/icon-arrow-down.svg);
+  background-image: url(../assets/icons/icon-arrow-down.svg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 10px 15px;
@@ -2389,7 +2389,7 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 570px;
+    width: 740px;
   }
 
 }
@@ -2409,8 +2409,8 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 550px;
-    right: 40px;
+    width: 774px;
+    right: -65px;
   }
 
 }
@@ -2433,8 +2433,8 @@ html.no-csstransitions .home-content__main {
   }
 
   .home-content__right {
-    width: 530px;
-    right: 50px;
+    width: 774px;
+    right: -65px;
   }
 
 }
@@ -2641,7 +2641,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
   padding-top: 23.2rem;
   padding-bottom: calc((62.4rem/2) + 6.4rem);
-  background-color: #5b4f96;
+  background-color: #b82e3c;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -2781,7 +2781,7 @@ html.no-csstransitions .home-content__main {
   overflow: hidden;
   height: 62.4rem;
   margin-top: calc((62.4rem/2) * -1);
-  background-image: url(../images/video-bg-2400.jpg);
+  background-image: url(../assets/images/thumbnail.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -2817,7 +2817,7 @@ html.no-csstransitions .home-content__main {
   width: 112px;
   border-radius: 50%;
   background-color: #ffffff;
-  background-image: url(../images/icons/icon-play-black.svg);
+  background-image: url(../assets/icons/icon-play-black.svg);
   background-repeat: no-repeat;
   background-position: 55% center;
   background-size: 24px 27px;
@@ -2826,8 +2826,8 @@ html.no-csstransitions .home-content__main {
 }
 
 .btn-video:hover .video-icon {
-  background-color: #5b4f96;
-  background-image: url(../images/icons/icon-play.svg);
+  background-color: #AD2533;
+  background-image: url(../assets/icons/icon-play.svg);
 }
 
 
@@ -2940,7 +2940,7 @@ html.no-csstransitions .home-content__main {
   line-height: 54px;
   text-align: center;
   border-radius: 50%;
-  background-color: #5b4f96;
+  background-color: #AD2533;
   box-shadow: 0 0 0 15px #ffffff;
   z-index: 500;
   position: absolute;
@@ -3159,7 +3159,7 @@ html.no-csstransitions .home-content__main {
 .s-features {
   padding-top: 19.2rem;
   padding-bottom: 20rem;
-  background-color: #eaeaea;
+  background-color: #E5F1FF;
   overflow: hidden;
   position: relative;
 }
@@ -3177,7 +3177,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-feature__icon {
-  color: #5b4f96;
+  color: #AD2533;
   font-size: 4.8rem;
 }
 
@@ -3596,7 +3596,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-download {
   padding-top: 18.4rem;
-  background-color: #5b4f96;
+  background-color: #B82E3C;
   color: rgba(255, 255, 255, 0.8);
   overflow: hidden;
   position: relative;
@@ -3635,11 +3635,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-download .download-badges li a.badge-appstore {
-  background-image: url("../images/appstore.png");
+  background-image: url("../assets/images/appstore.png");
 }
 
 .s-download .download-badges li a.badge-googleplay {
-  background-image: url("../images/google-play.png");
+  background-image: url("../assets/images/google-play.png");
 }
 
 .s-download .download-bottom-image {
@@ -3708,7 +3708,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 18.4rem;
+  padding-top: 0rem;
   padding-bottom: 4.8rem;
   color: rgba(255, 255, 255, 0.4);
   position: relative;
@@ -3721,11 +3721,11 @@ html.no-csstransitions .home-content__main {
 .s-footer a:hover,
 .s-footer a:focus,
 .s-footer a:active {
-  color: #5b4f96;
+  color: #AD2533;
 }
 
 .s-footer .display-1 {
-  color: #5b4f96;
+  color: #AD2533;
 }
 
 .s-footer h4 {
@@ -3740,7 +3740,7 @@ html.no-csstransitions .home-content__main {
 
 .s-footer .footer__mail-link {
   font-weight: 800;
-  color: #5b4f96;
+  color: #AD2533;
 }
 
 .s-footer .footer__mail-link:hover,
@@ -3752,7 +3752,6 @@ html.no-csstransitions .home-content__main {
 .footer__bottom {
   margin-top: 1.6rem;
   padding-top: 3.9rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 
@@ -3775,7 +3774,7 @@ html.no-csstransitions .home-content__main {
   font-size: 1.8rem;
   line-height: 3.2rem;
   padding: 1.8rem 140px 1.8rem 64px;
-  background: url(../images/icons/icon-mail.svg) 24px center no-repeat, rgba(255, 255, 255, 0.03);
+  background: url(../assets/icons/icon-mail.svg) 24px center no-repeat, rgba(255, 255, 255, 0.03);
   background-size: 24px 16px, auto;
   color: white;
   margin-bottom: 2rem;
@@ -3885,7 +3884,7 @@ html.no-csstransitions .home-content__main {
 .footer__social li a:hover,
 .footer__social li a:focus,
 .footer__social li a:active {
-  background-color: #5b4f96;
+  background-color: #AD2533;
   color: #ffffff;
 }
 
@@ -3919,7 +3918,7 @@ html.no-csstransitions .home-content__main {
 .footer__site-links li a:hover,
 .footer__site-links li a:focus,
 .footer__site-links li a:active {
-  color: #5b4f96;
+  color: #AD2533;
 }
 
 
@@ -3975,7 +3974,7 @@ html.no-csstransitions .home-content__main {
   width: 5.6rem;
   line-height: 5.6rem;
   text-align: center;
-  background-image: url(../images/icons/icon-arrow-up.svg);
+  background-image: url(../assets/icons/icon-arrow-up.svg);
   background-color: #000000;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3991,7 +3990,7 @@ html.no-csstransitions .home-content__main {
 .go-top a:hover,
 .go-top a:focus,
 .go-top a:active {
-  background-color: #514686;
+  background-color: #AD2533;
 }
 
 .go-top.link-is-visible {
@@ -4024,7 +4023,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:800px) {
   .s-footer {
-    padding-top: 14.8rem;
+    padding-top: 0rem;
   }
 
   .footer__bottom .right {
@@ -4035,7 +4034,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width:600px) {
   .s-footer {
-    padding-top: 12rem;
+    padding-top: 0rem;
     padding-bottom: 4rem;
   }
 
